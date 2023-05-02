@@ -1,0 +1,241 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+main{
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* pricing-plan start */
+.pricing-plan{
+    background-color: #f6f9fc;
+    padding: 50px;
+}
+.price-title{}
+.price-title span{
+    color: #818dee;
+}
+.price-title h3 {
+    padding-bottom: 15px;
+    font-weight: 700;
+    position: relative;
+}
+.price-title h3::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 528px;
+    background-color: #818dee;
+    width: 4%;
+    height: 2px;
+}
+.price-title p {
+    padding: 0 334px;
+}
+
+/* price-card */
+.price-card{
+    background-color: #ffff;
+    padding: 20px;
+    transition: .5s;
+}
+.price-card:hover{
+    background-color: #0d6efd;
+    color: #ffff;
+}
+.price-card span {
+    font-weight: 600;
+}
+
+.price-card h3 {
+    margin: 0;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    position: relative;
+}
+
+.price-card h3::after {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 113px;
+    background-color: #cecfcf;
+    width: 29%;
+    height: 1px;
+}
+
+.price-card ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+.price-card ul li{}
+.price-card button {
+    border: none;
+    outline: none;
+    background: #0d6efd;
+    color: #ffff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    transition: .5s;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+.price-card:hover button{
+    background-color: #ffff;
+    color: black;
+}
+
+.price-card button:hover{
+    color: #ffff;
+    border: 1px solid #f3f3f3;
+}
+.price-card button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0d6efd;
+    width: 0;
+    height: 100%;
+    transition: .5s;
+    z-index: -1;
+
+}
+
+.price-card button:hover::after{
+    width: 100%;
+
+    /* border-radius: 20px; */
+   
+}
+/* pricing-plan end */
+/* banner start */
+
+.banner-title{
+    color: #ffff;
+    background-image: url(img/free-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 9;
+}
+.banner-title::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0366fb99;
+    z-index: -1;
+}
+.banner-title h3 {
+    padding: 10px 411px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    position: relative;
+}
+.banner-title h3::after {
+    content: "";
+    position: absolute;
+    bottom: 9px;
+    left: 605px;
+    background-color: #ffffff;
+    width: 4%;
+    height: 2px;
+}
+.banner-title p {
+    padding: 0 400px;
+}
+.banner-title button {
+    border: none;
+    outline: none;
+    background: #ffffff;
+    color: #000000;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    transition: .5s;
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+.banner-title button:hover{
+    color: #ffff;
+  
+    border: 1px solid #ffffff;
+}
+.banner-title button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0066ffcc;
+    width: 0;
+    height: 100%;
+    transition: .5s;
+    z-index: -1;
+
+}
+
+.banner-title button:hover::after{
+    width: 100%;
+    border-radius: 20px;
+  
+   
+}
+/* banner end */
+/* footer start */
+.footer{
+    background-color: #f6f9fc;
+    padding: 70px 0;
+}
+.footer-contact {
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 25px 40px;
+}
+.footer-contact h4{}
+.footer-contact p {
+    padding-right: 271px;
+}
+.footer-email {
+    width: 292px;
+    border-radius: 20px;
+}
+button.footer-btn {
+    outline: none;
+    border: .5px solid #fff;
+    margin: 1px 19px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #0d6efd;
+    color: #ffff;
+}
+
+.footer-right-btn {
+    background-color: #fff;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    padding: 30px;
+}
+.footer-right-btn h5 {
+    padding-right: 73px;
+    margin-bottom: 60px;
+}
+.footer-right-btn .btn-primary {
+  
+    color: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 6px 13px;
+}
+/* footer end */
